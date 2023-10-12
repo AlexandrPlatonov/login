@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  width: 1440px;
+  height: 900px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600px;
+  padding-top: 31px;
+  padding-left: 42px;
+}
+
+.left-block {
+  background: url(image-pupil.png) no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  padding-top: 294px;
+  padding-right: 179px;
+  padding-bottom: 0px;
+  padding-left: 33px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-block-title {
+  color: #000;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.left-block-subtitle {
+  color: #000;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.left-block-account {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 53px;
+}
+
+.left-block-register {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.register-here {
+  color: #4d47c3;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.right-block {
+  padding-top: 174px;
+  padding-right: 179px;
+  padding-bottom: 184px;
+  padding-left: 88px;
+  display: flex;
+  flex-direction: column;
+  width: 369px;
+}
+
+.right-block-title {
+  color: #000;
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 28px;
+}
+
+.input-email {
+  border-radius: 8px;
+  background: #f0efff;
+  color: #a7a3ff;
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 26px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 38px;
+}
+
+.input-pass {
+  background: url(logo-invisible.svg) no-repeat;
+  background-position: 330px;
+  border-radius: 8px;
+  background-color: #f0efff;
+  color: #a7a3ff;
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 26px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 17px;
+}
+
+.forgot {
+  color: #b0b0b0;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: right;
+  padding-bottom: 46px;
+}
+
+.button-login {
+  border-radius: 9px;
+  background: #4d47c3;
+  box-shadow: 0px 4px 61px 0px rgba(77, 71, 195, 0.4);
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 54px;
+}
+
+.or-continie {
+  color: #b5b5b5;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.logos {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.facebook {
+  width: 42px;
+  height: 42px;
+}
+
+.apple {
+  width: 42px;
+  height: 42px;
+}
+
+.google {
+  width: 42px;
+  height: 42px;
+}
